@@ -9,6 +9,8 @@ class Authentication{
 
     get mainMenuBtn() { return ('#react-burger-menu-btn') }
     get logOutBtn() { return ('#logout_sidebar_link') }
+
+    get errorMssg() { return (`h3[data-test='error']`)};
     //#endregion
 
     //#region Methods

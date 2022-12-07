@@ -16,6 +16,8 @@ class Cart{
     get removeSauceLabBackPackBtn() { return ('#remove-sauce-labs-backpack') }
     get removedCartItem() { return ('.removed_cart_item') }
 
+    get removeSauceLabsOnesie() { return ('#remove-sauce-labs-onesie') }
+
     get checkOutBtn() { return ('#checkout') }
     //#endregion
 
@@ -36,6 +38,10 @@ class Cart{
 
     navigateToCart(){
         cy.get(this.cartIcon).click()
+    }
+
+    navigateToCheckout(){
+        cy.get(this.checkOutBtn).click()
     }
 
     applySelectorFormat(itemName){

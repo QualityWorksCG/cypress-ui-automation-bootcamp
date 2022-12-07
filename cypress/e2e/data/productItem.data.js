@@ -1,14 +1,6 @@
-module.exports = {
+module.exports =  [
     
-    sort: {
-        'A to Z':'az',
-        'Z to A':'za',
-        'Low to High':'lohi',
-        'High to Low':'hilo',
-    },
-    products: 
-    [
-        {
+    {
         name: 'Sauce Labs Backpack',
         description: 'carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.',
         price: '29.99'
@@ -20,7 +12,7 @@ module.exports = {
     },
     {
         name: 'Sauce Labs Bolt T-Shirt',
-        description: 'Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.',
+       description: 'Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.',
         price: '15.99'
     },
     {
@@ -34,8 +26,8 @@ module.exports = {
         price: '7.99'
     },
     {
-        name: 'Test.allTheThings() T-Shirt (Red)',
+        name: 'Test\\.allTheThings\\(\\) T-Shirt \\(Red\\)',
         description: 'This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.',
         price: '15.99'
-    }]
-}
+    }
+]
